@@ -13,7 +13,7 @@ public class Bruteforce {
         double startingPointX = START_X;
         //double max = f(startingPointX);
         double min = f(startingPointX);
-        double dx = 0.01;
+        double dx = 0.001;
         //double maxX = START_X;
         double minX = START_X;
         for (double i = startingPointX; i < END_X; i += dx){
